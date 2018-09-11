@@ -1,20 +1,13 @@
 {
-  "name": "tutbot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "welcomer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node welcomer.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "get-youtube-id": "^1.0.0",
-    "opusscript": "0.0.6",
-    "queue": "^4.5.0",
-    "simple-youtube-api": "^5.0.2",
-    "youtube-info": "^1.2.0",
-    "ytdl-core": "^0.25.2"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
